@@ -1,4 +1,4 @@
-from тел_Справ import *
+from тел_Справ.py import *
 
 CONTACTS = 'contacts.txt'
 
