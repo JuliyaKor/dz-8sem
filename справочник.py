@@ -1,4 +1,4 @@
-from logger import *
+from тел_Справ import *
 
 CONTACTS = 'contacts.txt'
 
@@ -9,6 +9,7 @@ def interface():
               '1 - Добавить контакт\n' +
               '2 - Вывести все контакты\n' +
               '3 - Найти контакт\n' +
+              '4 - Скопировать строку в файле\n' +
               '0 - Выйти')
         command = int(input())
         match command:
